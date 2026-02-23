@@ -1,0 +1,16 @@
+# Environments
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Documentation source
+docs/etl_workshop-1.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
