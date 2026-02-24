@@ -3,7 +3,7 @@
 ```mermaid
 graph LR
     subgraph Data_Source ["Source"]
-        CSV[fa:fa-file-csv "Candidates CSV"]
+        CSV["fa:fa-file-csv Candidates CSV"]
     end
 
     subgraph ETL_Process ["ETL Pipeline"]
