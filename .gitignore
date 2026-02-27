@@ -17,3 +17,12 @@ docs/etl_workshop-1.pdf
 # OS files
 .DS_Store
 Thumbs.db
+
+# Data files
+data/raw/candidates_sample.csv
+
+# Credentials and secrets
+.env
+
+# Logs
+logs/etl.log
