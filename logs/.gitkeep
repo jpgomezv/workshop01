@@ -1,0 +1,2 @@
+# This file exists to ensure the logs/ directory is tracked by Git.
+# The log file itself (etl.log) is excluded via .gitignore.
