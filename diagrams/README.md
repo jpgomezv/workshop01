@@ -1,5 +1,7 @@
 ### **Model Design Details**
 
+![System Architecture](./star_schema.png) 
+
 *   **Fact Table Grain:** The grain is **one row per candidate application**. This represents the most atomic level of data provided in the source system, allowing for maximum analytical flexibility.
 *   **Surrogate Keys (SK):** In compliance with Data Warehousing best practices, all Primary Keys in this model are **Surrogate Keys** (integers generated during the ETL process). This decouples the Data Warehouse from source-system natural keys (like Email), ensuring referential integrity even if source data changes.
 *   **Dimensional Strategy:** 
